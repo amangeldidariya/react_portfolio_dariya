@@ -1,0 +1,25 @@
+.contacts {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contacts h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* измените на цвет вашего выбора при наведении */
+}

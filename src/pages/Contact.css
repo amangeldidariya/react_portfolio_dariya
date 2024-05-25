@@ -1,0 +1,69 @@
+.ContactForm {
+    padding: 50px 0;
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: 150px auto 0; /* отступ сверху 50px, автоматические отступы по бокам */
+}
+
+.formRow {
+    margin-bottom: 20px;
+}
+
+.formInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-dismissible {
+    padding-right: 40px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.btn-close {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: inherit;
+}
